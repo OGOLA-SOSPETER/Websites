@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: lightgray;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+form {
+    width: 500px;
+}
+
+label,
+input,
+textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#output {
+    margin-left: 20px;
+    width: 500px;
+    background-color: lightgray;
+    padding: 20px;
+}

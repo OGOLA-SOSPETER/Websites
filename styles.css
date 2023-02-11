@@ -1,0 +1,110 @@
+body {
+    background-color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: inherit;
+    border-style: groove;
+    text-decoration-color: darkolivegreen;
+    padding: 10%;
+    border-style: inherit;
+}
+
+h1 {
+    color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    border: 0px;
+    border-style: ridge;
+}
+
+h2 {
+    text-align: center;
+    text-underline-position: below;
+    color: brown;
+}
+
+head {
+    color: yellowgreen;
+    font: caption;
+}
+
+table {
+    border: crimson;
+    height: max-content;
+    width: max-content;
+    border-style: inset;
+    padding: inherit;
+    text-align: center;
+    opacity: unset;
+    align-self: flex-start;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    align-content: right;
+    align-items: center;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    display: block;
+    width: 17%;
+    height: 100%;
+    text-decoration: wavy;
+    float: left;
+    font-size: medium;
+    position: -webkit-sticky;
+    position: sticky;
+    overflow: hidden;
+    border-right: 1px solid #bbb;
+    top: 0;
+}
+
+.topnav :last-child {
+    border-right: none;
+}
+
+.topnav a:hover {
+    background-color: rgb(219, 211, 226);
+    color: rgb(132, 22, 184);
+}
+
+.topnav a.active {
+    background-color: #d41f1f;
+    color: white;
+}
+
+select {
+    border: #d41f1f;
+    border-style: dashed;
+}
+
+form {
+    border: rgb(132, 22, 184);
+    border-style: groove;
+    border-color: blueviolet;
+    background-image: conic-gradient(blue, red, violet);
+}
+
+table {
+    border-style: groove;
+    background: scroll;
+}
+
+tr {
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+}
